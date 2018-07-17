@@ -13,6 +13,13 @@ Plugin 'garbas/vim-snipmate'
 Plugin 'Lokaltog/vim-powerline'
 Plugin 'ervandew/supertab'
 
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'junegunn/vim-easy-align'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+Plugin 'kien/rainbow_parentheses.vim'
+
+
 call vundle#end()
 filetype plugin indent on
 

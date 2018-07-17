@@ -13,8 +13,9 @@ fi
 p=$(pwd)
 
 p1=${p}"/.vimrc"
-cp $p1 ~/
+ln -s $p1 ~/.vimrc
 
 p2=${p}"/colors"
 cp -r $p2 ~/.vim
 
+vim +PluginInstall +qall
