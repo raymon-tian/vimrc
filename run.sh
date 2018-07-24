@@ -10,6 +10,8 @@ if [ ! -d ~/.vim/colors ]; then
     mkdir ~/.vim/colors
 fi
 
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
 p=$(pwd)
 
 p1=${p}"/.vimrc"
