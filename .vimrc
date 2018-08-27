@@ -18,6 +18,7 @@ Plugin 'junegunn/vim-easy-align'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'kien/rainbow_parentheses.vim'
+Plugin 'vim-scripts/DoxygenToolkit.vim'
 
 
 call vundle#end()
